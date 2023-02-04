@@ -27,4 +27,12 @@ export const emotionList = [
     emotion_img: process.env.PUBLIC_URL + `/assets/emotion5.png`,
     emotion_descript: "끔찍함",
   },
+  {
+    id: 1,
+    emotion_img: process.env.PUBLIC_URL + `/assets/T.png`,
+  },
+  {
+    id: 2,
+    emotion_img: process.env.PUBLIC_URL + `/assets/git.png`,
+  },
 ];

@@ -43,10 +43,10 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  /* padding-left: 20px; */
+  /* padding-right: 20px; */
 
   font-size: 18px;
   white-space: nowrap;
@@ -54,7 +54,7 @@ body {
 }
 
 .MyButton_default {
-  background-color: #ececec;
+  background-color: #ffffff;
   color: black;
 }
 
@@ -71,9 +71,7 @@ body {
 /* HEADER */
 
 header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-
+  padding-top: 10px;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #e2e2e2;
@@ -251,8 +249,8 @@ header button {
   cursor: pointer;
 
   border-radius: 5px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   display: flex;
   flex-direction: column;
@@ -267,10 +265,6 @@ header button {
 
 .EmotionItem span {
   font-size: 18px;
-}
-
-.EmotionItem_off {
-  background-color: #ececec;
 }
 
 .EmotionItem_on_1 {
