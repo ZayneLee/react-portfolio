@@ -8,7 +8,7 @@ const Home = () => {
 
   const [data, setData] = useState([]);
   const [curDate, setCurDate] = useState(new Date());
-  const headText = `${curDate.getFullYear()}년 ${curDate.getMonth() + 1}월`;
+  const headText = `Zayne's Portfolio`;
 
   useEffect(() => {
     if (diaryList.length >= 1) {
