@@ -10,6 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Nanum Pen Script";
+  font-size: 25px;
   min-height: 100vh;
   margin: 0px;
 }
