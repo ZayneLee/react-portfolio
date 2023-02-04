@@ -82,7 +82,6 @@ const DiaryList = ({ diaryList }) => {
           />
         </div>
       </div>
-
       {getProcessedDiaryList().map((it) => (
         <DiaryItem key={it.id} {...it} />
       ))}
