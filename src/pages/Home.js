@@ -9,6 +9,7 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
+import MyMenu from "../components/MyMenu";
 
 const Home = () => {
   const diaryList = useContext(DiaryStateContext);
@@ -79,6 +80,7 @@ const Home = () => {
         }
         rightChild={<MyButton text={"KOR / ENG"} onClick={increaseMonth} />}
       />
+      <MyMenu />
       <Stack alignItems="center" sx={{ marginTop: "2px" }}>
         <Stack sx={{ width: "25%" }}>
           <img src={process.env.PUBLIC_URL + `/assets/zayne.png`} />
