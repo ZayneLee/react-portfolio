@@ -16,20 +16,18 @@ const MyMenu = () => {
     >
       <Grid
         component={Link}
-        underline="hover"
         to="/"
         item
         xs={4}
         textAlign="center"
         sx={{ border: "1px solid #dadada" }}
       >
-        About Me
+        Home
       </Grid>
       <Grid
         item
         xs={4}
         component={Link}
-        underline="hover"
         to="/skills"
         textAlign="center"
         sx={{ border: "1px solid #dadada" }}
@@ -40,7 +38,7 @@ const MyMenu = () => {
         item
         xs={4}
         component={Link}
-        underline="hover"
+        to="/exp"
         textAlign="center"
         sx={{ border: "1px solid #dadada" }}
       >
