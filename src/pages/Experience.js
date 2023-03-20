@@ -1,5 +1,9 @@
+import ExperienceList from "../components/ExperienceList";
+
 const Experience = () => {
-  return <div>Experience Page</div>;
+  return <div>
+    <ExperienceList />
+  </div>;
 };
 
 export default Experience;
