@@ -3,13 +3,14 @@ import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 
 const Home = () => {
-
-
   return (
     <div>
       <Stack alignItems="center" sx={{ marginTop: "2px" }}>
         <Stack sx={{ width: "25%" }}>
-          <img src={process.env.PUBLIC_URL + `/assets/zayne.png`} alt="Profile_PIC"/>
+          <img
+            src={process.env.PUBLIC_URL + `/assets/zayne.png`}
+            alt="Profile_PIC"
+          />
         </Stack>
       </Stack>
       <Typography textAlign="center">
