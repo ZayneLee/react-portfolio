@@ -6,9 +6,9 @@ const Home = () => {
   return (
     <div>
       <Stack alignItems="center" sx={{ marginTop: "2px" }}>
-        <Stack sx={{ width: "25%" }}>
+        <Stack sx={{ width: "10%" }}>
           <img
-            src={process.env.PUBLIC_URL + `/assets/zayne.png`}
+            src={process.env.PUBLIC_URL + `/assets/lee.jpg`}
             alt="Profile_PIC"
           />
         </Stack>
