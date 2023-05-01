@@ -1,7 +1,5 @@
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Divider from "@mui/material/Divider";
@@ -105,8 +103,8 @@ const Skills = () => {
                 <CardMedia
                   component="img"
                   alt="green iguana"
-                  height="300"
-                  image={process.env.PUBLIC_URL + `/assets/java.png`}
+                  height="200"
+                  image={process.env.PUBLIC_URL + `/assets/jsp.jpg`}
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
@@ -128,7 +126,7 @@ const Skills = () => {
                 <CardMedia
                   component="img"
                   alt="green iguana"
-                  height="300"
+                  height="200"
                   image={process.env.PUBLIC_URL + `/assets/spring.png`}
                 />
                 <CardContent>
@@ -158,9 +156,6 @@ const Skills = () => {
               </Typography>
             </Grid>
           </Grid>
-          <Typography color="text.secondary" variant="body2">
-            about Version Control System
-          </Typography>
         </Box>
         <Divider variant="middle" />
         <Box sx={{ m: 2 }}>
@@ -187,6 +182,30 @@ const Skills = () => {
                     tracking, and collaboration features, making it easier for
                     teams to work together on projects and contribute to
                     open-source software.
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card sx={{ maxWidth: 345 }}>
+                <CardMedia
+                  component="img"
+                  alt="SVN logo"
+                  height="200"
+                  image={process.env.PUBLIC_URL + `/assets/svn.png`} // Replace this with the SVN image URL
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    SVN
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    Subversion (SVN) is a centralized version control system
+                    that allows developers to track changes in their code and
+                    collaborate with others. It stores the history of changes in
+                    a central repository, and developers can commit their
+                    changes, update their local copies, and resolve conflicts
+                    when needed. While not as popular as Git in recent years,
+                    SVN is still used in some projects and organizations.
                   </Typography>
                 </CardContent>
               </Card>
