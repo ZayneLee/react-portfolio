@@ -7,10 +7,9 @@ import MyHeader from "./components/MyHeader";
 import MyMenu from "./components/MyMenu";
 import Diary from "./pages/Diary";
 import Experience from "./pages/Experience";
+import Footer from "./pages/Footer";
 import Home from "./pages/Home";
 import Skills from "./pages/Skills";
-
-
 
 function App() {
   const headText = `Zayne's Portfolio`;
@@ -30,52 +29,55 @@ function App() {
 
   useEffect(() => {
     setScreenSize();
-    console.log('=======')
+    console.log("=======");
   });
 
   return (
-        <BrowserRouter>
-          <MyHeader
-            headText={headText}
-            leftBlogChild={
-              <MyButton
-                text={
-                  <EmotionItem
-                    emotion_img={process.env.PUBLIC_URL + `/assets/T.png`}
-                  />
-                }
-                onClick={goToBlog}
-              />
-            }
-            leftGitChild={
-              <MyButton
-                text={
-                  <EmotionItem
-                    emotion_img={process.env.PUBLIC_URL + `/assets/git.png`}
-                  />
-                }
-                onClick={goToGit}
-              />
-            }
-            rightChild={
-              <MyButton
-                text={"KOR / ENG"}
-                onClick={(e) => {
-                  console.log(e);
-                }}
-              />
-            }
-          />
-          <MyMenu />
-          <div className="App">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/skills" element={<Skills />} />
-              <Route path="/exp" element={<Experience />} />
-              <Route path="/diary/:id" element={<Diary />} />
-            </Routes>
-          </div>
-        </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <MyHeader
+          headText={headText}
+          leftBlogChild={
+            <MyButton
+              text={
+                <EmotionItem
+                  emotion_img={process.env.PUBLIC_URL + `/assets/T.png`}
+                />
+              }
+              onClick={goToBlog}
+            />
+          }
+          leftGitChild={
+            <MyButton
+              text={
+                <EmotionItem
+                  emotion_img={process.env.PUBLIC_URL + `/assets/git.png`}
+                />
+              }
+              onClick={goToGit}
+            />
+          }
+          rightChild={
+            <MyButton
+              text={"KOR / ENG"}
+              onClick={(e) => {
+                console.log(e);
+              }}
+            />
+          }
+        />
+        <MyMenu />
+        <div className="App">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/exp" element={<Experience />} />
+            <Route path="/diary/:id" element={<Diary />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+      <Footer />
+    </>
   );
 }
 

@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <Stack alignItems="center" sx={{ marginTop: "2px" }}>
-        <Stack sx={{ width: "10%" }}>
+        <Stack sx={{ width: "15%", mt: 10 }}>
           <img
             src={process.env.PUBLIC_URL + `/assets/lee.jpg`}
             alt="Profile_PIC"
@@ -41,7 +41,6 @@ const Home = () => {
           <h2>학력</h2> 한국방송통신대 컴퓨터과학과
         </Grid>
       </Grid>
-      {/* <DiaryList diaryList={data} /> */}
     </div>
   );
 };
