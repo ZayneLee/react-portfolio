@@ -44,7 +44,7 @@ const Skills = () => {
                   component="img"
                   alt="green iguana"
                   height="150"
-                  image={process.env.PUBLIC_URL + `/assets/html.png`}
+                  image={process.env.PUBLIC_URL + `/assets/css.jpg`}
                 />
                 <CardContent>
                   <Typography
