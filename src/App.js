@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./App.css";
 import EmotionItem from "./components/EmotionItem";
 import MyButton from "./components/MyButton";
 import MyHeader from "./components/MyHeader";
@@ -10,27 +9,28 @@ import Experience from "./pages/Experience";
 import Footer from "./pages/Footer";
 import Home from "./pages/Home";
 import Skills from "./pages/Skills";
+import "./App.css";
 
 function App() {
-  const headText = `Zayne's Portfolio`;
+  const headText = "Zayne's Portfolio";
+  const externalLinks = [
+    { url: "https://zaynelee.tistory.com/", img: "/assets/T.png" },
+    { url: "https://github.com/ZayneLee", img: "/assets/git.png" },
+  ];
 
-  const goToBlog = () => {
-    window.open("https://zaynelee.tistory.com/");
+  const handleClick = (url) => {
+    window.open(url);
   };
 
-  const goToGit = () => {
-    window.open("https://github.com/ZayneLee");
-  };
-
-  function setScreenSize() {
+  const setScreenSize = () => {
     let vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty("--vh", `${vh}px`);
-  }
+  };
 
   useEffect(() => {
     setScreenSize();
     console.log("=======");
-  });
+  }, []);
 
   return (
     <>
@@ -41,20 +41,20 @@ function App() {
             <MyButton
               text={
                 <EmotionItem
-                  emotion_img={process.env.PUBLIC_URL + `/assets/T.png`}
+                  emotion_img={process.env.PUBLIC_URL + externalLinks[0].img}
                 />
               }
-              onClick={goToBlog}
+              onClick={() => handleClick(externalLinks[0].url)}
             />
           }
           leftGitChild={
             <MyButton
               text={
                 <EmotionItem
-                  emotion_img={process.env.PUBLIC_URL + `/assets/git.png`}
+                  emotion_img={process.env.PUBLIC_URL + externalLinks[1].img}
                 />
               }
-              onClick={goToGit}
+              onClick={() => handleClick(externalLinks[1].url)}
             />
           }
           rightChild={

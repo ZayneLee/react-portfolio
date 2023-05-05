@@ -13,7 +13,7 @@ const Footer = () => {
     >
       <Container maxWidth="lg">
         <Typography variant="body1" align="center">
-          © 2023. SeongDo Lee. All rights reserved.
+          Crafted with ❤️ by SeongDo Lee | React & Responsive Web Design | 2023
         </Typography>
       </Container>
     </Box>

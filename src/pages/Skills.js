@@ -26,14 +26,8 @@ const Skills = () => {
           boxShadow: 3,
         }}
       >
-        <Box sx={{ my: 3, mx: 2 }}>
-          <Grid container alignItems="center">
-            <Grid item xs>
-              <Typography gutterBottom variant="h4" component="div">
-                Front-End
-              </Typography>
-            </Grid>
-          </Grid>
+        <Box sx={{ my: 3, mx: 2, mb: -4 }}>
+          <h1>Front-End</h1>
         </Box>
         <Divider variant="middle" />
         <Box sx={{ m: 2 }}>
@@ -47,14 +41,15 @@ const Skills = () => {
                   image={process.env.PUBLIC_URL + `/assets/css.jpg`}
                 />
                 <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    textAlign="center"
+                  <div
+                    style={{
+                      textAlign: "center",
+                      fontWeight: "bold",
+                      fontSize: "1.5rem",
+                    }}
                   >
                     HTML5 + CSS3 + JS
-                  </Typography>
+                  </div>
                 </CardContent>
               </Card>
             </Grid>
@@ -67,14 +62,15 @@ const Skills = () => {
                   image={process.env.PUBLIC_URL + `/assets/react1.png`}
                 />
                 <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    textAlign="center"
+                  <div
+                    style={{
+                      textAlign: "center",
+                      fontWeight: "bold",
+                      fontSize: "1.5rem",
+                    }}
                   >
                     React
-                  </Typography>
+                  </div>
                 </CardContent>
               </Card>
             </Grid>
@@ -87,28 +83,23 @@ const Skills = () => {
                   image={process.env.PUBLIC_URL + `/assets/TS1.png`}
                 />
                 <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    textAlign="center"
+                  <div
+                    style={{
+                      textAlign: "center",
+                      fontWeight: "bold",
+                      fontSize: "1.5rem",
+                    }}
                   >
                     TypeScript
-                  </Typography>
+                  </div>
                 </CardContent>
               </Card>
             </Grid>
           </Grid>
         </Box>
 
-        <Box sx={{ my: 3, mx: 2 }}>
-          <Grid container alignItems="center">
-            <Grid item xs>
-              <Typography gutterBottom variant="h4" component="div">
-                Back-End
-              </Typography>
-            </Grid>
-          </Grid>
+        <Box sx={{ my: 3, mx: 2, mt: 6, mb: -4 }}>
+          <h1>Back-End</h1>
         </Box>
         <Divider variant="middle" />
         <Box sx={{ m: 2 }}>
@@ -122,14 +113,15 @@ const Skills = () => {
                   image={process.env.PUBLIC_URL + `/assets/jsp.jpg`}
                 />
                 <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    textAlign="center"
+                  <div
+                    style={{
+                      textAlign: "center",
+                      fontWeight: "bold",
+                      fontSize: "1.5rem",
+                    }}
                   >
                     JSP
-                  </Typography>
+                  </div>
                 </CardContent>
               </Card>
             </Grid>
@@ -142,27 +134,22 @@ const Skills = () => {
                   image={process.env.PUBLIC_URL + `/assets/spring1.png`}
                 />
                 <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    textAlign="center"
+                  <div
+                    style={{
+                      textAlign: "center",
+                      fontWeight: "bold",
+                      fontSize: "1.5rem",
+                    }}
                   >
                     Spring Framwork
-                  </Typography>
+                  </div>
                 </CardContent>
               </Card>
             </Grid>
           </Grid>
         </Box>
-        <Box sx={{ my: 3, mx: 2 }}>
-          <Grid container alignItems="center">
-            <Grid item xs>
-              <Typography gutterBottom variant="h4" component="div">
-                Version Control System
-              </Typography>
-            </Grid>
-          </Grid>
+        <Box sx={{ my: 3, mx: 2, mt: 6, mb: -4 }}>
+          <h1>Version Control System</h1>
         </Box>
         <Divider variant="middle" />
         <Box sx={{ m: 2 }}>
@@ -176,14 +163,15 @@ const Skills = () => {
                   image={process.env.PUBLIC_URL + `/assets/github.png`}
                 />
                 <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    textAlign="center"
+                  <div
+                    style={{
+                      textAlign: "center",
+                      fontWeight: "bold",
+                      fontSize: "1.5rem",
+                    }}
                   >
                     Git/Github
-                  </Typography>
+                  </div>
                 </CardContent>
               </Card>
             </Grid>
@@ -196,14 +184,15 @@ const Skills = () => {
                   image={process.env.PUBLIC_URL + `/assets/svn.png`}
                 />
                 <CardContent>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    textAlign="center"
+                  <div
+                    style={{
+                      textAlign: "center",
+                      fontWeight: "bold",
+                      fontSize: "1.5rem",
+                    }}
                   >
                     SVN
-                  </Typography>
+                  </div>
                 </CardContent>
               </Card>
             </Grid>
