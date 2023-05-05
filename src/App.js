@@ -4,7 +4,6 @@ import ButtonItem from "./components/ButtonItem";
 import MyButton from "./components/MyButton";
 import MyHeader from "./components/MyHeader";
 import MyMenu from "./components/MyMenu";
-import Diary from "./pages/Diary";
 import Experience from "./pages/Experience";
 import Footer from "./pages/Footer";
 import Home from "./pages/Home";
@@ -72,7 +71,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/exp" element={<Experience />} />
-            <Route path="/diary/:id" element={<Diary />} />
           </Routes>
         </div>
       </BrowserRouter>
