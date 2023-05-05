@@ -17,16 +17,13 @@ const Experience = () => {
           <Box sx={{ my: 3, mx: 2 }}>
             <Grid container alignItems="center">
               <Grid item xs>
-                <Typography gutterBottom variant="h4" component="div">
-                  스리랑카 농산물 수출입검역 프로젝트
-                </Typography>
+                <h2>스리랑카 농산물 수출입검역 프로젝트</h2>
               </Grid>
             </Grid>
             <Typography color="text.secondary" variant="body2">
-              Front-end development focuses on creating the user interface and
-              user experience of a website or application. It involves the use
-              of HTML, CSS, and JavaScript to create visually appealing and
-              responsive designs that provide a seamless experience for users.
+              UN 산하기관의 UNOPS(유엔프로젝트조달기구)와 KOICA(한국국제협력단)
+              그리고 JAICA(일본국제협력기구)에서 공동으로 진행하고 있는 스리랑카
+              농산물 수출입검역 프로젝트 참여
             </Typography>
           </Box>
           <Divider variant="middle" />
@@ -43,18 +40,198 @@ const Experience = () => {
                     }}
                     image={process.env.PUBLIC_URL + `/assets/npqs.png`}
                   />
+                  <Divider sx={{ mt: 1 }} variant="middle" />
                   <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                      HTML5 + CSS3 + JS
+                    <Typography gutterBottom variant="h4" component="div">
+                      Tools
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      React is a popular JavaScript library for building user
-                      interfaces, particularly for single-page applications.
-                      Developed by Facebook, it allows developers to create
-                      reusable UI components and efficiently manage the state of
-                      their applications, resulting in faster and more scalable
-                      solutions.
+                    VS code, MySQL Workbench, GitHub, Docker
+                  </CardContent>
+                  <CardContent>
+                    <Typography gutterBottom variant="h4" component="div">
+                      Skills
                     </Typography>
+                    Node.js, React, Typescript, Java, Spring, MyBatis, MySQL
+                  </CardContent>
+                </Card>
+              </Grid>
+            </Grid>
+          </Box>
+        </Box>
+        <Box
+          sx={{ width: "100%", maxWidth: 1200, bgcolor: "background.paper" }}
+        >
+          <Box sx={{ my: 3, mx: 2 }}>
+            <Grid container alignItems="center">
+              <Grid item xs>
+                <h2>순천향대학병원</h2>
+              </Grid>
+            </Grid>
+            <Typography color="text.secondary" variant="body2">
+              순천향대학병원 구미병원팀의 전산팀에서 사용자 편의를 위한 단위업무
+              개발 및 통계 쿼리 생성 작업
+            </Typography>
+          </Box>
+          <Divider variant="middle" />
+          <Box sx={{ m: 2 }}>
+            <Grid container spacing={2} justifyContent="center">
+              <Grid item xs={12} sm={6} md={4}>
+                <Card sx={{ maxWidth: 500 }}>
+                  <CardMedia
+                    component="img"
+                    alt="green iguana"
+                    sx={{
+                      width: "100%", // Set the width to 100%
+                      objectFit: "cover",
+                    }}
+                    image={process.env.PUBLIC_URL + `/assets/sch.png`}
+                  />
+                  <Divider sx={{ mt: 1 }} variant="middle" />
+                  <CardContent>
+                    <Typography gutterBottom variant="h4" component="div">
+                      Tools
+                    </Typography>
+                    Xplatform, Eclipse, SQLGate, SVN
+                  </CardContent>
+                  <CardContent>
+                    <Typography gutterBottom variant="h4" component="div">
+                      Skills
+                    </Typography>
+                    Javascript, Java, Jsp, Oracle
+                  </CardContent>
+                </Card>
+              </Grid>
+            </Grid>
+          </Box>
+        </Box>
+        <Box
+          sx={{ width: "100%", maxWidth: 1200, bgcolor: "background.paper" }}
+        >
+          <Box sx={{ my: 3, mx: 2 }}>
+            <Grid container alignItems="center">
+              <Grid item xs>
+                <h2>자동차검사시스템 기능개선 및 구성개편 프로젝트</h2>
+              </Grid>
+            </Grid>
+            <Typography color="text.secondary" variant="body2">
+              한국교통안전공단에서 발주한 자동차검사시스템 기능개선 및 구성개편
+              프로젝트에 참여
+            </Typography>
+          </Box>
+          <Divider variant="middle" />
+          <Box sx={{ m: 2 }}>
+            <Grid container spacing={2} justifyContent="center">
+              <Grid item xs={12} sm={6} md={4}>
+                <Card sx={{ maxWidth: 500 }}>
+                  <CardMedia
+                    component="img"
+                    alt="green iguana"
+                    sx={{
+                      width: "100%", // Set the width to 100%
+                      objectFit: "cover",
+                    }}
+                    image={process.env.PUBLIC_URL + `/assets/TS.png`}
+                  />
+                  <Divider sx={{ mt: 1 }} variant="middle" />
+                  <CardContent>
+                    <Typography gutterBottom variant="h4" component="div">
+                      Tools
+                    </Typography>
+                    WebSquare5, Eclipse
+                  </CardContent>
+                  <CardContent>
+                    <Typography gutterBottom variant="h4" component="div">
+                      Skills
+                    </Typography>
+                    Java, Sprink Framework, Sysbase
+                  </CardContent>
+                </Card>
+              </Grid>
+            </Grid>
+          </Box>
+        </Box>
+        <Box
+          sx={{ width: "100%", maxWidth: 1200, bgcolor: "background.paper" }}
+        >
+          <Box sx={{ my: 3, mx: 2, mb: -3 }}>
+            <Grid container alignItems="center">
+              <h2>개인 프로젝트</h2>
+            </Grid>
+          </Box>
+          <Divider variant="middle" />
+          <Box sx={{ m: 2 }}>
+            <Grid container spacing={2} justifyContent="center">
+              <Grid item xs={12} sm={6} md={4}>
+                <Card sx={{ maxWidth: 500 }}>
+                  <div
+                    style={{
+                      textAlign: "center",
+                      fontWeight: "bold",
+                      fontSize: "2rem",
+                    }}
+                  >
+                    Zayne's portfolio
+                  </div>
+                  <Divider variant="middle" />
+                  <CardContent>
+                    <Typography gutterBottom variant="h4" component="div">
+                      Tools
+                    </Typography>
+                    VS code, firebase
+                  </CardContent>
+                  <CardContent>
+                    <Typography gutterBottom variant="h4" component="div">
+                      Skills
+                    </Typography>
+                    Node.js, React
+                  </CardContent>
+                </Card>
+                <Card sx={{ maxWidth: 500, mt: 2 }}>
+                  <div
+                    style={{
+                      textAlign: "center",
+                      fontWeight: "bold",
+                      fontSize: "2rem",
+                    }}
+                  >
+                    Emotion Diary
+                  </div>
+                  <Divider variant="middle" />
+                  <CardContent>
+                    <Typography gutterBottom variant="h4" component="div">
+                      Tools
+                    </Typography>
+                    VS code, firebase
+                  </CardContent>
+                  <CardContent>
+                    <Typography gutterBottom variant="h4" component="div">
+                      Skills
+                    </Typography>
+                    Node.js, React
+                  </CardContent>
+                </Card>
+                <Card sx={{ maxWidth: 500, mt: 2 }}>
+                  <div
+                    style={{
+                      textAlign: "center",
+                      fontWeight: "bold",
+                      fontSize: "2rem",
+                    }}
+                  >
+                    Ex-Zayne's portfolio
+                  </div>
+                  <Divider variant="middle" />
+                  <CardContent>
+                    <Typography gutterBottom variant="h4" component="div">
+                      Tools
+                    </Typography>
+                    Atom Editor
+                  </CardContent>
+                  <CardContent>
+                    <Typography gutterBottom variant="h4" component="div">
+                      Skills
+                    </Typography>
+                    HTML5, CSS3
                   </CardContent>
                 </Card>
               </Grid>

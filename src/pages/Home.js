@@ -6,7 +6,9 @@ const Home = () => {
   return (
     <div>
       <Stack alignItems="center" sx={{ marginTop: "2px" }}>
-        <Stack sx={{ width: { xs: "50%", sm: "30%", md: "15%" }, mt: 3 }}>
+        <Stack
+          sx={{ width: { xs: "50%", sm: "30%", md: "15%" }, mt: 3, mb: 5 }}
+        >
           <img
             src={process.env.PUBLIC_URL + `/assets/lee.jpg`}
             alt="Profile_PIC"
