@@ -162,78 +162,87 @@ const Experience = () => {
           <Box sx={{ m: 2 }}>
             <Grid container spacing={2} justifyContent="center">
               <Grid item xs={12} sm={6} md={4}>
-                <Card sx={{ maxWidth: 500 }}>
-                  <div
-                    style={{
-                      textAlign: "center",
-                      fontWeight: "bold",
-                      fontSize: "2rem",
-                    }}
-                  >
-                    Zayne's portfolio
-                  </div>
-                  <Divider variant="middle" />
-                  <CardContent>
-                    <Typography gutterBottom variant="h4" component="div">
-                      Tools
-                    </Typography>
-                    VS code, firebase
-                  </CardContent>
-                  <CardContent>
-                    <Typography gutterBottom variant="h4" component="div">
-                      Skills
-                    </Typography>
-                    Node.js, React
-                  </CardContent>
-                </Card>
-                <Card sx={{ maxWidth: 500, mt: 2 }}>
-                  <div
-                    style={{
-                      textAlign: "center",
-                      fontWeight: "bold",
-                      fontSize: "2rem",
-                    }}
-                  >
-                    Emotion Diary
-                  </div>
-                  <Divider variant="middle" />
-                  <CardContent>
-                    <Typography gutterBottom variant="h4" component="div">
-                      Tools
-                    </Typography>
-                    VS code, firebase
-                  </CardContent>
-                  <CardContent>
-                    <Typography gutterBottom variant="h4" component="div">
-                      Skills
-                    </Typography>
-                    Node.js, React
-                  </CardContent>
-                </Card>
-                <Card sx={{ maxWidth: 500, mt: 2 }}>
-                  <div
-                    style={{
-                      textAlign: "center",
-                      fontWeight: "bold",
-                      fontSize: "2rem",
-                    }}
-                  >
-                    Ex-Zayne's portfolio
-                  </div>
-                  <Divider variant="middle" />
-                  <CardContent>
-                    <Typography gutterBottom variant="h4" component="div">
-                      Tools
-                    </Typography>
-                    Atom Editor
-                  </CardContent>
-                  <CardContent>
-                    <Typography gutterBottom variant="h4" component="div">
-                      Skills
-                    </Typography>
-                    HTML5, CSS3
-                  </CardContent>
-                </Card>
+                <a href="https://zayne-portfolio.web.app/" target="_blank">
+                  <Card sx={{ maxWidth: 500 }}>
+                    <div
+                      style={{
+                        textAlign: "center",
+                        fontWeight: "bold",
+                        fontSize: "2rem",
+                      }}
+                    >
+                      Zayne's portfolio
+                    </div>
+                    <Divider variant="middle" />
+                    <CardContent>
+                      <Typography gutterBottom variant="h4" component="div">
+                        Tools
+                      </Typography>
+                      VS code, firebase
+                    </CardContent>
+                    <CardContent>
+                      <Typography gutterBottom variant="h4" component="div">
+                        Skills
+                      </Typography>
+                      Node.js, React
+                    </CardContent>
+                  </Card>
+                </a>
+                <a
+                  href="https://zayne-emotiondiary-project.web.app/"
+                  target="_blank"
+                >
+                  <Card sx={{ maxWidth: 500, mt: 2 }}>
+                    <div
+                      style={{
+                        textAlign: "center",
+                        fontWeight: "bold",
+                        fontSize: "2rem",
+                      }}
+                    >
+                      Emotion Diary
+                    </div>
+                    <Divider variant="middle" />
+                    <CardContent>
+                      <Typography gutterBottom variant="h4" component="div">
+                        Tools
+                      </Typography>
+                      VS code, firebase
+                    </CardContent>
+                    <CardContent>
+                      <Typography gutterBottom variant="h4" component="div">
+                        Skills
+                      </Typography>
+                      Node.js, React
+                    </CardContent>
+                  </Card>
+                </a>
+                <a href="http://zayne.dothome.co.kr/" target="_blank">
+                  <Card sx={{ maxWidth: 500, mt: 2 }}>
+                    <div
+                      style={{
+                        textAlign: "center",
+                        fontWeight: "bold",
+                        fontSize: "2rem",
+                      }}
+                    >
+                      Ex-Zayne's portfolio
+                    </div>
+                    <Divider variant="middle" />
+                    <CardContent>
+                      <Typography gutterBottom variant="h4" component="div">
+                        Tools
+                      </Typography>
+                      Atom Editor
+                    </CardContent>
+                    <CardContent>
+                      <Typography gutterBottom variant="h4" component="div">
+                        Skills
+                      </Typography>
+                      HTML5, CSS3
+                    </CardContent>
+                  </Card>
+                </a>
               </Grid>
             </Grid>
           </Box>
