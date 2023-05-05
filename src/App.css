@@ -106,14 +106,21 @@ header button {
   font-family: "Nanum Pen Script";
 }
 
-.external-link-image {
-  width: 40px; /* Adjust this value for larger screens */
+.button-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-item-container img {
+  width: 40px;
   height: auto;
+  margin-right: 5px; /* Add some margin to separate the image and text */
 }
 
 @media (max-width: 600px) {
-  .external-link-image {
-    width: 25px; /* Adjust this value for smaller screens */
+  .button-item-container img {
+    width: 25px;
     height: auto;
   }
 }

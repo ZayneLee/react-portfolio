@@ -41,7 +41,6 @@ function App() {
             <MyButton
               text={
                 <ButtonItem
-                  className="external-link-image"
                   img={process.env.PUBLIC_URL + externalLinks[0].img}
                 />
               }
@@ -52,7 +51,6 @@ function App() {
             <MyButton
               text={
                 <ButtonItem
-                  className="external-link-image"
                   img={process.env.PUBLIC_URL + externalLinks[1].img}
                 />
               }
