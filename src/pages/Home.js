@@ -14,9 +14,15 @@ const Home = () => {
           />
         </Stack>
       </Stack>
-      <Typography textAlign="center" variant="h5">
-        <h1>About Me</h1>
-      </Typography>
+      <div
+        style={{
+          textAlign: "center",
+          fontWeight: "bold",
+          fontSize: "4rem",
+        }}
+      >
+        About Me
+      </div>
       <Grid
         container
         direction="row"
