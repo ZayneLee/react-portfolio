@@ -105,3 +105,15 @@ header .head_btn_right {
 header button {
   font-family: "Nanum Pen Script";
 }
+
+.external-link-image {
+  width: 40px; /* Adjust this value for larger screens */
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .external-link-image {
+    width: 25px; /* Adjust this value for smaller screens */
+    height: auto;
+  }
+}

@@ -10,7 +10,7 @@ const Diary = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [data, setData] = useState();
-  
+
   if (!data) {
     return <div className="DiaryPage">로딩중입니다...</div>;
   } else {
@@ -41,7 +41,7 @@ const Diary = () => {
                 `diary_img_wrapper_${data.emotion}`,
               ].join(" ")}
             >
-              <img src={curEmotionData.emotion_img} />
+              <img src={curEmotionData.img} />
               <div className="emotion_descript">
                 {curEmotionData.emotion_descript}
               </div>

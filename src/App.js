@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import EmotionItem from "./components/EmotionItem";
+import ButtonItem from "./components/ButtonItem";
 import MyButton from "./components/MyButton";
 import MyHeader from "./components/MyHeader";
 import MyMenu from "./components/MyMenu";
@@ -40,8 +40,9 @@ function App() {
           leftBlogChild={
             <MyButton
               text={
-                <EmotionItem
-                  emotion_img={process.env.PUBLIC_URL + externalLinks[0].img}
+                <ButtonItem
+                  className="external-link-image"
+                  img={process.env.PUBLIC_URL + externalLinks[0].img}
                 />
               }
               onClick={() => handleClick(externalLinks[0].url)}
@@ -50,8 +51,9 @@ function App() {
           leftGitChild={
             <MyButton
               text={
-                <EmotionItem
-                  emotion_img={process.env.PUBLIC_URL + externalLinks[1].img}
+                <ButtonItem
+                  className="external-link-image"
+                  img={process.env.PUBLIC_URL + externalLinks[1].img}
                 />
               }
               onClick={() => handleClick(externalLinks[1].url)}

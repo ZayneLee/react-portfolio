@@ -1,6 +1,6 @@
-const EmotionItem = ({
+const ButtonItem = ({
   emotion_id,
-  emotion_img,
+  img,
   emotion_descript,
   onClick,
   isSelected,
@@ -13,10 +13,10 @@ const EmotionItem = ({
       ].join(" ")}
       onClick={() => onClick(emotion_id)}
     >
-      <img src={emotion_img} />
+      <img src={img} />
       <span>{emotion_descript}</span>
     </div>
   );
 };
 
-export default EmotionItem;
+export default ButtonItem;
