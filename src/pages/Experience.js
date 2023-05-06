@@ -162,7 +162,12 @@ const Experience = () => {
           <Box sx={{ m: 2 }}>
             <Grid container spacing={2} justifyContent="center">
               <Grid item xs={12} sm={6} md={4}>
-                <a href="https://zayne-portfolio.web.app/" target="_blank">
+                <a
+                  href="https://zayne-portfolio.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}
+                >
                   <Card sx={{ maxWidth: 500 }}>
                     <div
                       style={{
@@ -173,6 +178,14 @@ const Experience = () => {
                     >
                       Zayne's portfolio
                     </div>
+                    <Typography
+                      variant="subtitle1"
+                      align="center"
+                      color="text.secondary"
+                      style={{ fontStyle: "italic" }}
+                    >
+                      (Click to view project)
+                    </Typography>
                     <Divider variant="middle" />
                     <CardContent>
                       <Typography gutterBottom variant="h4" component="div">
@@ -189,8 +202,10 @@ const Experience = () => {
                   </Card>
                 </a>
                 <a
-                  href="https://zayne-emotiondiary-project.web.app/"
+                  href="https://zayne-portfolio.web.app/"
                   target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}
                 >
                   <Card sx={{ maxWidth: 500, mt: 2 }}>
                     <div
@@ -202,6 +217,14 @@ const Experience = () => {
                     >
                       Emotion Diary
                     </div>
+                    <Typography
+                      variant="subtitle1"
+                      align="center"
+                      color="text.secondary"
+                      style={{ fontStyle: "italic" }}
+                    >
+                      (Click to view project)
+                    </Typography>
                     <Divider variant="middle" />
                     <CardContent>
                       <Typography gutterBottom variant="h4" component="div">
@@ -217,7 +240,12 @@ const Experience = () => {
                     </CardContent>
                   </Card>
                 </a>
-                <a href="http://zayne.dothome.co.kr/" target="_blank">
+                <a
+                  href="https://zayne-portfolio.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}
+                >
                   <Card sx={{ maxWidth: 500, mt: 2 }}>
                     <div
                       style={{
@@ -228,6 +256,14 @@ const Experience = () => {
                     >
                       Zayne's previous portfolio
                     </div>
+                    <Typography
+                      variant="subtitle1"
+                      align="center"
+                      color="text.secondary"
+                      style={{ fontStyle: "italic" }}
+                    >
+                      (Click to view project)
+                    </Typography>
                     <Divider variant="middle" />
                     <CardContent>
                       <Typography gutterBottom variant="h4" component="div">
