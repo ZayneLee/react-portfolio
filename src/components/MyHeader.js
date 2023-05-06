@@ -1,4 +1,5 @@
 import Box from "@mui/material/Box";
+import Stack from "@mui/material/Stack";
 
 const MyHeader = ({ headText, leftBlogChild, leftGitChild, rightChild }) => {
   return (
@@ -9,15 +10,15 @@ const MyHeader = ({ headText, leftBlogChild, leftGitChild, rightChild }) => {
         justifyContent="space-between"
         width="100%"
       >
-        <Box
-          className="head_btn_left"
-          display="flex"
-          alignItems="center"
+        <Stack
+          direction={{ xs: "column", sm: "row" }}
+          alignItems={{ xs: "center", sm: "flex-start" }}
+          spacing={1}
           flexGrow={1}
         >
           {leftBlogChild}
           {leftGitChild}
-        </Box>
+        </Stack>
         <Box className="head_text" textAlign={{ xs: "center", sm: "center" }}>
           {headText}
         </Box>
@@ -26,7 +27,6 @@ const MyHeader = ({ headText, leftBlogChild, leftGitChild, rightChild }) => {
           display="flex"
           alignItems="center"
           justifyContent="flex-end"
-          flexGrow={1}
         >
           {rightChild}
         </Box>
