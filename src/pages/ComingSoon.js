@@ -17,6 +17,9 @@ const ComingSoon = ({ close }) => {
         This feature is currently under development and will be available soon.
         Thank you for your patience.
       </p>
+      <p style={{ fontWeight: "bold", textAlign: "center" }}>
+        This window will close in 5 seconds.
+      </p>
     </div>
   );
 };
