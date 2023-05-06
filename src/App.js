@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ButtonItem from "./components/ButtonItem";
 import MyButton from "./components/MyButton";
@@ -9,6 +9,7 @@ import Footer from "./pages/Footer";
 import Home from "./pages/Home";
 import Skills from "./pages/Skills";
 import "./App.css";
+import ComingSoon from "./pages/ComingSoon";
 
 function App() {
   const headText = "Zayne's Portfolio";
@@ -20,6 +21,8 @@ function App() {
   const handleClick = (url) => {
     window.open(url);
   };
+
+  const [comingSoonVisible, setComingSoonVisible] = useState(false);
 
   const setScreenSize = () => {
     let vh = window.innerHeight * 0.01;
@@ -60,7 +63,7 @@ function App() {
             <MyButton
               text={"KOR / ENG"}
               onClick={(e) => {
-                console.log(e);
+                setComingSoonVisible(true);
               }}
             />
           }
@@ -74,6 +77,9 @@ function App() {
           </Routes>
         </div>
       </BrowserRouter>
+      {comingSoonVisible && (
+        <ComingSoon close={() => setComingSoonVisible(false)} />
+      )}
       <Footer />
     </>
   );
