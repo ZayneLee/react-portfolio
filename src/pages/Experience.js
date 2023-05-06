@@ -143,7 +143,7 @@ const Experience = () => {
                     <Typography gutterBottom variant="h4" component="div">
                       Skills
                     </Typography>
-                    Java, Sprink Framework, Sysbase
+                    Java, Spring Framework, Sysbase
                   </CardContent>
                 </Card>
               </Grid>
@@ -226,7 +226,7 @@ const Experience = () => {
                         fontSize: "2rem",
                       }}
                     >
-                      Ex-Zayne's portfolio
+                      Zayne's previous portfolio
                     </div>
                     <Divider variant="middle" />
                     <CardContent>

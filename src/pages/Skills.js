@@ -141,7 +141,7 @@ const Skills = () => {
                       fontSize: "1.5rem",
                     }}
                   >
-                    Spring Framwork
+                    Spring Framework
                   </div>
                 </CardContent>
               </Card>
