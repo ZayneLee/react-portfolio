@@ -202,7 +202,7 @@ const Experience = () => {
                   </Card>
                 </a>
                 <a
-                  href="https://zayne-portfolio.web.app/"
+                  href="https://zayne-emotiondiary-project.web.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
@@ -241,7 +241,7 @@ const Experience = () => {
                   </Card>
                 </a>
                 <a
-                  href="https://zayne-portfolio.web.app/"
+                  href="http://zayne.dothome.co.kr/"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
