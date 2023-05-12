@@ -11,7 +11,7 @@ const MyHeader = ({ headText, leftBlogChild, leftGitChild, rightChild }) => {
         width="100%"
       >
         <Stack
-          direction={{ xs: "column", sm: "row" }}
+          direction="row"
           alignItems={{ xs: "center", sm: "flex-start" }}
           spacing={1}
           flexGrow={1}
