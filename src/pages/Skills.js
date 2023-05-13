@@ -4,8 +4,8 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Divider from "@mui/material/Divider";
 import Grid from "@mui/material/Grid";
+import LinearProgress from "@mui/material/LinearProgress";
 import Stack from "@mui/material/Stack";
-import Typography from "@mui/material/Typography";
 import { styled } from "@mui/system";
 
 const HoverImage = styled(CardMedia)(({ theme }) => ({
@@ -50,6 +50,7 @@ const Skills = () => {
                   >
                     HTML5 + CSS3 + JS
                   </div>
+                  <LinearProgress variant="determinate" value={90} />
                 </CardContent>
               </Card>
             </Grid>
@@ -71,6 +72,7 @@ const Skills = () => {
                   >
                     React
                   </div>
+                  <LinearProgress variant="determinate" value={70} />
                 </CardContent>
               </Card>
             </Grid>
@@ -92,6 +94,7 @@ const Skills = () => {
                   >
                     TypeScript
                   </div>
+                  <LinearProgress variant="determinate" value={70} />
                 </CardContent>
               </Card>
             </Grid>
@@ -122,6 +125,7 @@ const Skills = () => {
                   >
                     JSP
                   </div>
+                  <LinearProgress variant="determinate" value={90} />
                 </CardContent>
               </Card>
             </Grid>
@@ -143,6 +147,7 @@ const Skills = () => {
                   >
                     Spring Framework
                   </div>
+                  <LinearProgress variant="determinate" value={60} />
                 </CardContent>
               </Card>
             </Grid>
@@ -172,6 +177,7 @@ const Skills = () => {
                   >
                     Git/Github
                   </div>
+                  <LinearProgress variant="determinate" value={80} />
                 </CardContent>
               </Card>
             </Grid>
@@ -193,6 +199,7 @@ const Skills = () => {
                   >
                     SVN
                   </div>
+                  <LinearProgress variant="determinate" value={80} />
                 </CardContent>
               </Card>
             </Grid>
