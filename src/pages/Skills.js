@@ -50,7 +50,11 @@ const Skills = () => {
                   >
                     HTML5 + CSS3 + JS
                   </div>
-                  <LinearProgress variant="determinate" value={90} />
+                  <LinearProgress
+                    variant="determinate"
+                    value={90}
+                    sx={{ mt: 1 }}
+                  />
                 </CardContent>
               </Card>
             </Grid>
@@ -72,7 +76,11 @@ const Skills = () => {
                   >
                     React
                   </div>
-                  <LinearProgress variant="determinate" value={70} />
+                  <LinearProgress
+                    variant="determinate"
+                    value={70}
+                    sx={{ mt: 1 }}
+                  />
                 </CardContent>
               </Card>
             </Grid>
@@ -94,7 +102,11 @@ const Skills = () => {
                   >
                     TypeScript
                   </div>
-                  <LinearProgress variant="determinate" value={70} />
+                  <LinearProgress
+                    variant="determinate"
+                    value={70}
+                    sx={{ mt: 1 }}
+                  />
                 </CardContent>
               </Card>
             </Grid>
@@ -125,7 +137,11 @@ const Skills = () => {
                   >
                     JSP
                   </div>
-                  <LinearProgress variant="determinate" value={90} />
+                  <LinearProgress
+                    variant="determinate"
+                    value={90}
+                    sx={{ mt: 1 }}
+                  />
                 </CardContent>
               </Card>
             </Grid>
@@ -147,7 +163,11 @@ const Skills = () => {
                   >
                     Spring Framework
                   </div>
-                  <LinearProgress variant="determinate" value={60} />
+                  <LinearProgress
+                    variant="determinate"
+                    value={60}
+                    sx={{ mt: 1 }}
+                  />
                 </CardContent>
               </Card>
             </Grid>
@@ -177,7 +197,11 @@ const Skills = () => {
                   >
                     Git/Github
                   </div>
-                  <LinearProgress variant="determinate" value={80} />
+                  <LinearProgress
+                    variant="determinate"
+                    value={80}
+                    sx={{ mt: 1 }}
+                  />
                 </CardContent>
               </Card>
             </Grid>
@@ -199,7 +223,11 @@ const Skills = () => {
                   >
                     SVN
                   </div>
-                  <LinearProgress variant="determinate" value={80} />
+                  <LinearProgress
+                    variant="determinate"
+                    value={80}
+                    sx={{ mt: 1 }}
+                  />
                 </CardContent>
               </Card>
             </Grid>
