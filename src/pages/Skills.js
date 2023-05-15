@@ -55,6 +55,15 @@ const Skills = () => {
                     value={90}
                     sx={{ mt: 1 }}
                   />
+                  <div
+                    style={{
+                      textAlign: "center",
+                      fontSize: "1rem",
+                      color: "grey",
+                    }}
+                  >
+                    Confidence Level: 90%
+                  </div>
                 </CardContent>
               </Card>
             </Grid>
@@ -81,6 +90,15 @@ const Skills = () => {
                     value={70}
                     sx={{ mt: 1 }}
                   />
+                  <div
+                    style={{
+                      textAlign: "center",
+                      fontSize: "1rem",
+                      color: "grey",
+                    }}
+                  >
+                    Confidence Level: 70%
+                  </div>
                 </CardContent>
               </Card>
             </Grid>
@@ -107,6 +125,15 @@ const Skills = () => {
                     value={70}
                     sx={{ mt: 1 }}
                   />
+                  <div
+                    style={{
+                      textAlign: "center",
+                      fontSize: "1rem",
+                      color: "grey",
+                    }}
+                  >
+                    Confidence Level: 70%
+                  </div>
                 </CardContent>
               </Card>
             </Grid>
@@ -142,6 +169,15 @@ const Skills = () => {
                     value={90}
                     sx={{ mt: 1 }}
                   />
+                  <div
+                    style={{
+                      textAlign: "center",
+                      fontSize: "1rem",
+                      color: "grey",
+                    }}
+                  >
+                    Confidence Level: 90%
+                  </div>
                 </CardContent>
               </Card>
             </Grid>
@@ -168,6 +204,15 @@ const Skills = () => {
                     value={60}
                     sx={{ mt: 1 }}
                   />
+                  <div
+                    style={{
+                      textAlign: "center",
+                      fontSize: "1rem",
+                      color: "grey",
+                    }}
+                  >
+                    Confidence Level: 60%
+                  </div>
                 </CardContent>
               </Card>
             </Grid>
@@ -202,6 +247,15 @@ const Skills = () => {
                     value={80}
                     sx={{ mt: 1 }}
                   />
+                  <div
+                    style={{
+                      textAlign: "center",
+                      fontSize: "1rem",
+                      color: "grey",
+                    }}
+                  >
+                    Confidence Level: 80%
+                  </div>
                 </CardContent>
               </Card>
             </Grid>
@@ -228,6 +282,15 @@ const Skills = () => {
                     value={80}
                     sx={{ mt: 1 }}
                   />
+                  <div
+                    style={{
+                      textAlign: "center",
+                      fontSize: "1rem",
+                      color: "grey",
+                    }}
+                  >
+                    Confidence Level: 80%
+                  </div>
                 </CardContent>
               </Card>
             </Grid>
