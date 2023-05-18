@@ -104,7 +104,7 @@ const MyMenu = () => {
 
   return (
     <>
-      <Hidden smDown>{appBar}</Hidden>
+      <Hidden mdDown>{appBar}</Hidden>
       <Hidden mdUp>
         <AppBar
           position="static"
