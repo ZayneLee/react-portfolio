@@ -201,7 +201,7 @@ const Skills = () => {
                   </div>
                   <LinearProgress
                     variant="determinate"
-                    value={60}
+                    value={70}
                     sx={{ mt: 1 }}
                   />
                   <div
@@ -211,7 +211,7 @@ const Skills = () => {
                       color: "grey",
                     }}
                   >
-                    Confidence Level: 60%
+                    Confidence Level: 70%
                   </div>
                 </CardContent>
               </Card>
