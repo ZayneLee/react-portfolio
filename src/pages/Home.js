@@ -1,6 +1,5 @@
 import Grid from "@mui/material/Grid";
 import Stack from "@mui/material/Stack";
-import Typography from "@mui/material/Typography";
 
 const Home = () => {
   return (
@@ -10,7 +9,7 @@ const Home = () => {
           sx={{ width: { xs: "50%", sm: "30%", md: "15%" }, mt: 3, mb: 5 }}
         >
           <img
-            src={process.env.PUBLIC_URL + `/assets/lee.jpg`}
+            src={process.env.PUBLIC_URL + `/assets/lee2.jpg`}
             alt="Profile_PIC"
             style={{ width: "100%" }}
           />
