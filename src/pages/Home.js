@@ -39,8 +39,7 @@ const Home = () => {
         </Grid>
         <Grid item xs={12} sm={6}>
           <h3>Contact</h3>
-          <p>Phone number : 82)10-7767-7475</p>
-          <p>Instagram : zaynelee90</p>
+          <p>Phone number : 82)10-7767-7475<br/>Instagram : zaynelee90</p>
         </Grid>
       </Grid>
     </div>
