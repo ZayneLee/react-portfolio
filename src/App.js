@@ -61,7 +61,7 @@ function App() {
           }
           rightChild={
             <MyButton
-              text={"KOR / ENG"}
+              text={"ENG / KOR"}
               onClick={(e) => {
                 setComingSoonVisible(true);
               }}
