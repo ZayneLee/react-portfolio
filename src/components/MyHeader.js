@@ -11,7 +11,7 @@ const MyHeader = ({ headText, leftBlogChild, leftGitChild, leftLinkedInChild,rig
       >
         <Stack
           direction="row"
-          sx={{width:"20%"}}
+          sx={{width:"30%"}}
         >
           {leftBlogChild}
           {leftGitChild}
@@ -20,7 +20,7 @@ const MyHeader = ({ headText, leftBlogChild, leftGitChild, leftLinkedInChild,rig
         <Box
           className="head_text"
           textAlign="center" 
-          sx={{width:"60%"}}
+          sx={{width:"40%"}}
 
         >
           {headText}
@@ -29,7 +29,7 @@ const MyHeader = ({ headText, leftBlogChild, leftGitChild, leftLinkedInChild,rig
           className="head_btn_right"
           display="flex"
           justifyContent="flex-end"
-          sx={{width:"20%"}}
+          sx={{width:"30%"}}
 
         >
           {rightChild}
