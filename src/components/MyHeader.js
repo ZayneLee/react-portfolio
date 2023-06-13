@@ -6,13 +6,12 @@ const MyHeader = ({ headText, leftBlogChild, leftGitChild, leftLinkedInChild,rig
     <header>
       <Box
         display="flex"
-        alignItems="center"
         justifyContent="space-between"
         width="100%"
       >
         <Stack
           direction="row"
-          alignItems={{ xs: "center", sm: "flex-start" }}
+          sx={{width:"20%"}}
         >
           {leftBlogChild}
           {leftGitChild}
@@ -21,15 +20,17 @@ const MyHeader = ({ headText, leftBlogChild, leftGitChild, leftLinkedInChild,rig
         <Box
           className="head_text"
           textAlign="center" 
-          flexGrow={1}
+          sx={{width:"60%"}}
+
         >
           {headText}
         </Box>
         <Box
           className="head_btn_right"
           display="flex"
-          alignItems="center"
           justifyContent="flex-end"
+          sx={{width:"20%"}}
+
         >
           {rightChild}
         </Box>
