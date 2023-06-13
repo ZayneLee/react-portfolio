@@ -16,6 +16,7 @@ function App() {
   const externalLinks = [
     { url: "https://zaynelee.tistory.com/", img: "/assets/T.png" },
     { url: "https://github.com/ZayneLee", img: "/assets/git.png" },
+    { url: "https://www.linkedin.com/in/seongdo-lee-a86160278/", img: "/assets/linkedin.png" },
   ];
 
   const handleClick = (url) => {
@@ -31,7 +32,6 @@ function App() {
 
   useEffect(() => {
     setScreenSize();
-    console.log("=======");
   }, []);
 
   return (
@@ -57,6 +57,16 @@ function App() {
                 />
               }
               onClick={() => handleClick(externalLinks[1].url)}
+            />
+          }
+          leftLinkedInChild={
+            <MyButton
+              text={
+                <ButtonItem
+                  img={process.env.PUBLIC_URL + externalLinks[2].img}
+                />
+              }
+              onClick={() => handleClick(externalLinks[2].url)}
             />
           }
           rightChild={

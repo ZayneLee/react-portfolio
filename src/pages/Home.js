@@ -30,16 +30,17 @@ const Home = () => {
           <p>Gumi, Gyeongsangbuk-do</p>
         </Grid>
         <Grid item xs={12} sm={6}>
-          <h3>Contact</h3>
-          <p>010-7767-7475</p>
-        </Grid>
-        <Grid item xs={12} sm={6}>
           <h3>Email</h3>
           <p>zaynelee90@gmail.com</p>
         </Grid>
         <Grid item xs={12} sm={6}>
           <h3>Education</h3>
           <p>Computer Science,<br/>Korea National Open University</p>
+        </Grid>
+        <Grid item xs={12} sm={6}>
+          <h3>Contact</h3>
+          <p>Phone number : 82)10-7767-7475</p>
+          <p>Instagram : zaynelee90</p>
         </Grid>
       </Grid>
     </div>
