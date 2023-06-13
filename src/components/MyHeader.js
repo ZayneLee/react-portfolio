@@ -13,13 +13,16 @@ const MyHeader = ({ headText, leftBlogChild, leftGitChild, leftLinkedInChild,rig
         <Stack
           direction="row"
           alignItems={{ xs: "center", sm: "flex-start" }}
-          flexGrow={1}
         >
           {leftBlogChild}
           {leftGitChild}
           {leftLinkedInChild}
         </Stack>
-        <Box className="head_text" textAlign={{ xs: "center", sm: "center" }}>
+        <Box
+          className="head_text"
+          textAlign="center" 
+          flexGrow={1}
+        >
           {headText}
         </Box>
         <Box
