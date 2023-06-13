@@ -17,13 +17,18 @@ const Experience = () => {
           <Box sx={{ my: 3, mx: 2 }}>
             <Grid container alignItems="center">
               <Grid item xs>
-                <h2>스리랑카 농산물 수출입검역 프로젝트</h2>
+                {/* <h2>스리랑카 농산물 수출입검역 프로젝트</h2> */}
+                <h2>Plant Quarantine Information Management System Project</h2>
               </Grid>
             </Grid>
             <Typography color="text.secondary" variant="body2">
-              UN 산하기관의 UNOPS(유엔프로젝트조달기구)와 KOICA(한국국제협력단)
+              {/* UN 산하기관의 UNOPS(유엔프로젝트조달기구)와 KOICA(한국국제협력단)
               그리고 JAICA(일본국제협력기구)에서 공동으로 진행하고 있는 스리랑카
-              농산물 수출입검역 프로젝트 참여
+              농산물 수출입검역 프로젝트 참여 */}
+              Participated in Sri Lanka agricultural export and import quarantine project 
+              jointly conducted by UN-affiliated UNOPS (United Nations Project Procurement Agency), 
+              KOICA (Korea International Cooperation Agency), 
+              and JAICA (Japan International Cooperation Agency)
             </Typography>
           </Box>
           <Divider variant="middle" />
@@ -64,12 +69,15 @@ const Experience = () => {
           <Box sx={{ my: 3, mx: 2 }}>
             <Grid container alignItems="center">
               <Grid item xs>
-                <h2>순천향대학병원</h2>
+                {/* <h2>순천향대학병원</h2> */}
+                <h2>Soonchunhyang University Hospital</h2>
               </Grid>
             </Grid>
             <Typography color="text.secondary" variant="body2">
-              순천향대학병원 구미병원팀의 전산팀에서 사용자 편의를 위한 단위업무
-              개발 및 통계 쿼리 생성 작업
+              {/* 순천향대학병원 구미병원팀의 전산팀에서 사용자 편의를 위한 단위업무
+              개발 및 통계 쿼리 생성 작업 */}
+              Development of unit tasks for users and creation of vertical queries 
+              in the IT Department of Soonchunhyang University Hospital Gumi Hospital Team
             </Typography>
           </Box>
           <Divider variant="middle" />
@@ -110,12 +118,15 @@ const Experience = () => {
           <Box sx={{ my: 3, mx: 2 }}>
             <Grid container alignItems="center">
               <Grid item xs>
-                <h2>자동차검사시스템 기능개선 및 구성개편 프로젝트</h2>
+                {/* <h2>자동차검사시스템 기능개선 및 구성개편 프로젝트</h2> */}
+                <h2>Vehicle Inspection Management System project</h2>
               </Grid>
             </Grid>
             <Typography color="text.secondary" variant="body2">
-              한국교통안전공단에서 발주한 자동차검사시스템 기능개선 및 구성개편
-              프로젝트에 참여
+              {/* 한국교통안전공단에서 발주한 자동차검사시스템 기능개선 및 구성개편
+              프로젝트에 참여 */}
+              Participated in the vehicle inspection system function improvement and structure reorganization project 
+              ordered by the Korea Transportation Safety Authority
             </Typography>
           </Box>
           <Divider variant="middle" />
@@ -155,7 +166,7 @@ const Experience = () => {
         >
           <Box sx={{ my: 3, mx: 2, mb: -3 }}>
             <Grid container alignItems="center">
-              <h2>개인 프로젝트</h2>
+              <h2>Personal Projects</h2>
             </Grid>
           </Box>
           <Divider variant="middle" />
