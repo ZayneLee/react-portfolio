@@ -1,40 +1,26 @@
-import Box from "@mui/material/Box";
-import Stack from "@mui/material/Stack";
+import Grid from "@mui/material/Grid";
 
-const MyHeader = ({ headText, leftBlogChild, leftGitChild, leftLinkedInChild,rightChild }) => {
+const MyHeader = ({ headText, leftBlogChild, leftGitChild, leftLinkedInChild, rightChild }) => {
   return (
     <header>
-      <Box
-        display="flex"
+      <Grid
+        container
         justifyContent="space-between"
-        width="100%"
+        alignItems="center"
+        spacing={2}
       >
-        <Stack
-          direction="row"
-          sx={{width:"30%"}}
-        >
+        <Grid item xs={12} sm={4} md={3} lg={2} container justifyContent="flex-start">
           {leftBlogChild}
           {leftGitChild}
           {leftLinkedInChild}
-        </Stack>
-        <Box
-          className="head_text"
-          textAlign="center" 
-          sx={{width:"40%"}}
-
-        >
+        </Grid>
+        <Grid item xs={12} sm={4} md={6} lg={8} textAlign="center">
           {headText}
-        </Box>
-        <Box
-          className="head_btn_right"
-          display="flex"
-          justifyContent="flex-end"
-          sx={{width:"30%"}}
-
-        >
+        </Grid>
+        <Grid item xs={12} sm={4} md={3} lg={2} container justifyContent="flex-end">
           {rightChild}
-        </Box>
-      </Box>
+        </Grid>
+      </Grid>
     </header>
   );
 };
