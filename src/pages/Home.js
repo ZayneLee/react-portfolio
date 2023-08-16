@@ -27,7 +27,8 @@ const Home = () => {
         </Grid>
         <Grid item xs={12} sm={6}>
           <h3>Address</h3>
-          <p>Gumi, Gyeongsangbuk-do</p>
+          {/* <p>Gumi, Gyeongsangbuk-do</p> */}
+          <p>Southend on Sea, Essex, United Kingdom</p>
         </Grid>
         <Grid item xs={12} sm={6}>
           <h3>Email</h3>
