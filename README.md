@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Zayne</h1>
-<h3 align="center">A passionate full developer from South Korea</h3>
+<h3 align="center">A passionate full-stack developer from South Korea</h3>
 
 - 🔭 I’m currently working on [React Portfolio](https://zayne-portfolio.web.app/)
 
