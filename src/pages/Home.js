@@ -4,8 +4,19 @@ import Stack from "@mui/material/Stack";
 const Home = () => {
   return (
     <div style={{ padding: "2rem", maxWidth: "800px", margin: "0 auto" }}>
+      <Stack style={{  alignItems: "center" }}>
+      Check out my new portfolio:{" "}
+      <a
+        href="http://www.zaynelee-portfolio.shop"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ marginLeft: "5px", color: "#007bff", fontWeight: "bold", textDecoration: "none" }}
+      >
+        Zayne's 2024 New Portfolio
+      </a>
+    </Stack>
       <Stack alignItems="center">
-        <Stack sx={{ width: "50%", mt: 3, mb: 5 }}>
+        <Stack sx={{ width: "50%", mt: 5, mb: 5 }}>
           <img
             src={process.env.PUBLIC_URL + `/assets/lee2.jpg`}
             alt="Profile_PIC"
