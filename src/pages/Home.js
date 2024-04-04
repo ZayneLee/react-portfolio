@@ -7,7 +7,7 @@ const Home = () => {
       <Stack style={{  alignItems: "center" }}>
       Check out my new portfolio:{" "}
       <a
-        href="http://www.zaynelee-portfolio.shop"
+        href="https://zaynelee.com/"
         target="_blank"
         rel="noopener noreferrer"
         style={{ marginLeft: "5px", color: "#007bff", fontWeight: "bold", textDecoration: "none" }}
